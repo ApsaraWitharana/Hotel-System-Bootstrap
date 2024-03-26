@@ -696,6 +696,21 @@ form textarea {
     0 0 25px #110a0a, 0 0 50px #070a0a,
     0 0 100px #110a0a, 0 0 200px #110a0a;
 }
+/*about*/
+.contant{
+    color: white;
+}
 
+/* Add custom styles here */
+.jumbotron {
+    background-image: url('/assets/image/hotel-image1.jpg'); /* Replace with your hotel image */
+    background-size: cover;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
 
-/*footer*/
+/*home contain*/
+.col-md-6 p{
+    color: white;
+}
+
