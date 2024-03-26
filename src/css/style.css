@@ -1,0 +1,15 @@
+
+body{
+    margin: 0;
+    background-color: black;
+}
+img{
+
+        width: 1600px;
+        height: 500px;
+        padding: 40px 90px;
+        object-fit: cover;
+
+
+
+}
