@@ -333,3 +333,201 @@ main {
         font-size: 1.5em;
     }
 }
+
+/*home*/
+#home>section>section {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 50%;
+    text-align: center;
+    z-index: 2;
+}
+mypic {
+    width: 50vh;
+    height: 50vh;
+    border-radius: 100%;
+    border: 10px solid black;
+}
+
+#home>section>section>hgroup>h1 {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+#home_th {
+    animation-name: home_th_glow;
+    animation-duration: 4s;
+    color: #13ef13;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes home_th_glow {
+    0% {
+        text-shadow: none;
+    }
+
+    70% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+
+    100% {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.9), 0 0 50px rgba(255, 255, 255, 0.7), 0 0 40px rgba(255, 255, 255, 0.5);
+    }
+}
+
+#home>section>section>hgroup>h4 {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 44%;
+    width: max-content;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 1.8vw;
+    color: white;
+}
+#home>section>section>article>p {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 52%;
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+}
+#home>section>section>nav>a>button {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 67%;
+    color: white;
+    background: rgba(11, 157, 11, 0.89);
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px 30px;
+    /*font-family: 'Poppins', sans-serif;*/
+    height: 35px;
+    width: 160px;
+    animation-name: home_btn_position;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* animation-direction: alternate; */
+}
+@keyframes home_btn_position {
+    0% {
+        left: 0;
+        right: 0;
+    }
+
+    25% {
+        left: 10%;
+        right: 0;
+    }
+
+    50% {
+        left: 0;
+        right: 0;
+    }
+
+    75% {
+        left: 0;
+        right: 10%;
+    }
+
+    100% {
+        left: 0;
+        right: 0;
+    }
+}
+#home>section>section>nav>a>button:hover {
+    color: black;
+    background: white;
+    cursor: url(assets/image/circle.png), pointer;
+}
+
+/* home  */
+
+#home>section>section {
+    width: 90%;
+}
+
+#home>section>section>hgroup>h1 {
+    font-size: 65px;
+    top: 165px;
+    line-height: 45px;
+}
+
+#home>section>section>hgroup>h4 {
+    font-size: 30px;
+    top: 275px;
+}
+
+#home>section>section>article>p {
+    font-size: 18px;
+    width: 90%;
+    top: 320px;
+}
+
+#home>section>section>nav>a>button {
+    top: 444px;
+    font-size: 10px;
+    height: 26px;
+    width: 150px;
+}
+#my-profile1{
+    width: 800px;
+    height: 800px;
+    margin: auto;
+}
+.mypic1{
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    top: 100px;
+    left: 100px;
+    padding: 100px;
+    border-bottom-left-radius: 40px;
+}
+
+/* Add custom styles here */
+.gallery-item {
+    margin-bottom: 30px;
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease;
+    /*grid-template-columns: repeat(4,1fr);*/
+    /*display: grid;*/
+    /*flex-direction:row;*/
+    /*gap: 10px;*/
+}
+.gallery-item img:hover {
+    transform: scale(1.6);
+}
+.text-center mt-5{
+    color: white;
+}
+div>h2{
+    color: white;
+}
