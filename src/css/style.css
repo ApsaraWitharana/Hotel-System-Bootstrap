@@ -181,7 +181,10 @@ body>footer>nav {
     margin: auto;
     box-sizing: border-box;
 }
-
+.page_sec1{
+    height: 200vh;
+    position: relative;
+}
 .page_sec {
     height: 100vh;
     position: relative;
@@ -693,3 +696,6 @@ form textarea {
     0 0 25px #110a0a, 0 0 50px #070a0a,
     0 0 100px #110a0a, 0 0 200px #110a0a;
 }
+
+
+/*footer*/
