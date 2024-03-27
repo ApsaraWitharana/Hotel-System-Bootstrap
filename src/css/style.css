@@ -707,6 +707,7 @@ form textarea {
     background-size: cover;
     color: #fff;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
 }
 
 /*home contain*/
@@ -714,3 +715,9 @@ form textarea {
     color: white;
 }
 
+.box {
+    padding: 14px 60px;
+    border-radius: 1px;
+    border: 2px solid white;
+    margin: 0 10px 10px 10px;
+}
