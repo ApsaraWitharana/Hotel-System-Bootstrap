@@ -512,29 +512,7 @@ mypic {
     border-bottom-left-radius: 40px;
 }
 
-/* Add custom styles here */
-.gallery-item {
-    margin-bottom: 30px;
-}
-.gallery-item img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.4s ease;
-    /*grid-template-columns: repeat(4,1fr);*/
-    /*display: grid;*/
-    /*flex-direction:row;*/
-    /*gap: 10px;*/
-}
 
-.gallery-item img:hover {
-    transform: scale(1.6);
-}
-.text-center mt-5{
-    color: white;
-}
-div>h2{
-    color: white;
-}
 
 /*contact*/
 
@@ -696,10 +674,6 @@ form textarea {
     0 0 25px #110a0a, 0 0 50px #070a0a,
     0 0 100px #110a0a, 0 0 200px #110a0a;
 }
-/*about*/
-.contant{
-    color: white;
-}
 
 /* Add custom styles here */
 .jumbotron {
@@ -715,9 +689,50 @@ form textarea {
     color: white;
 }
 
+/*about setion */
 .box {
     padding: 14px 60px;
     border-radius: 1px;
     border: 2px solid white;
     margin: 0 10px 10px 10px;
+}
+/*about*/
+.contant{
+    color: white;
+}
+
+/*galary*/
+
+.row{
+    padding: 14px 60px;
+    border-radius: 1px;
+    border: 2px solid white;
+    margin: 0 10px 10px 10px;
+}
+/* Add custom styles here */
+.gallery-item {
+    margin-bottom: 30px;
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease;
+    /*grid-template-columns: repeat(4,1fr);*/
+    /*display: grid;*/
+    /*flex-direction:row;*/
+    /*gap: 10px;*/
+}
+
+.gallery-item img:hover {
+    transform: scale(1.6);
+}
+.text-center mt-5{
+    color: white;
+}
+div>h2{
+    color: white;
+}
+
+.set-name{
+    color: white;
 }
