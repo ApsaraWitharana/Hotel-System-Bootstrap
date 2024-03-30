@@ -182,7 +182,7 @@ body>footer>nav {
     box-sizing: border-box;
 }
 .page_sec1{
-    height: 200vh;
+    height: 250vh;
     position: relative;
 }
 .page_sec {
@@ -717,14 +717,21 @@ form textarea {
     width: 100%;
     height: auto;
     transition: transform 0.4s ease;
+    border-color: aliceblue;
+    border-radius: 12px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px 3px #1032d9;
+    padding: 10px;
+    margin: 0 20px 10px 10px;
     /*grid-template-columns: repeat(4,1fr);*/
     /*display: grid;*/
     /*flex-direction:row;*/
     /*gap: 10px;*/
 }
 
+
 .gallery-item img:hover {
-    transform: scale(1.6);
+    transform: scale(1.3);
 }
 .text-center mt-5{
     color: white;
@@ -739,4 +746,28 @@ div>h2{
 
 .form-label{
     color: white;
+}
+
+/*room*/
+
+.gallery-item1 img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease;
+    border-color: aliceblue;
+    border-radius: 12px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px 3px #e7eff8;
+    padding: 5px;
+    margin: 0 20px 10px 10px;
+}
+
+.gallery-item1 img:hover{
+    transform: scale(1.4);
+}
+
+
+.image{
+    float: left;
+    margin: 10px 10px;
 }
