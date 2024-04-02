@@ -763,6 +763,18 @@ div>h2{
     margin: 0 20px 10px 10px;
 }
 
+.gallery-item2 img{
+    width: 300px;
+    height: 300px;
+    transition: transform 0.4s ease;
+    border-color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0 20px 10px 10px;
+    text-align: center;
+}
+
 .gallery-item1 img:hover{
     transform: scale(1.4);
 }
