@@ -17,27 +17,37 @@
         margin-bottom: 20px;
     }
 
-    /* Basic Button Styling */
-    .add-to-cart-btn {
-        background-color: #135ecc; /* Green background */
-        border: none; /* Remove border */
-        color: white; /* White text */
-        padding: 10px 30px; /* Padding */
-        text-align: center; /* Center text */
-        text-decoration: none; /* Remove underline */
-        display: compact; /* Display as inline-block */
-        font-size: 10px; /* Font size */
-        margin: 4px 2px; /* Margin */
-        cursor: pointer; /* Cursor on hover */
-        border-radius: 10px; /* Rounded corners */
+    /*!* Basic Button Styling *!*/
+    /*.add-to-cart-btn {*/
+    /*    background-color: #135ecc; !* Green background *!*/
+    /*    border: none; !* Remove border *!*/
+    /*    color: white; !* White text *!*/
+    /*    padding: 10px 30px; !* Padding *!*/
+    /*    text-align: center; !* Center text *!*/
+    /*    text-decoration: none; !* Remove underline *!*/
+    /*    display: compact; !* Display as inline-block *!*/
+    /*    font-size: 10px; !* Font size *!*/
+    /*    margin: 4px 2px; !* Margin *!*/
+    /*    cursor: pointer; !* Cursor on hover *!*/
+    /*    border-radius: 10px; !* Rounded corners *!*/
+    /*    position: fixed;*/
 
-    }
+    /*}*/
 
-    /* Button Hover Effect */
-    .add-to-cart-btn:hover {
-        background-color: #0cd5dc; /* Darker green on hover */
-    }
 
+    /*!* Button Hover Effect *!*/
+    /*.add-to-cart-btn:hover {*/
+    /*    background-color: #0cd5dc; !* Darker green on hover *!*/
+    /*}*/
+
+ .progress {
+     margin: 0 10px 10px 10px;
+ }
+
+ . btn-outline-primary{
+     align-items: center;
+
+ }
 
     /*.container{*/
     /*    display: flex;*/
@@ -137,7 +147,7 @@
     <div class="container">
         <h1 class="display-4">Welcome to Dusvi Star Hotel </h1>
         <p class="lead">Experience luxury and comfort at our premier hotel</p>
-        <a href="#" class="btn btn-primary btn-lg">Book Now</a>
+        <a href="#booking" class="btn btn-primary btn-lg">Book Now</a>
     </div>
 </section>
 
@@ -245,7 +255,6 @@
             <li><i class="fa-solid fa-phone-volume"></i> <b> ✨ Phone Number :+94 71 3627595</b> </li>
 
         </div>
-        <p> 😎 Find Me On: </p>
         <div class="contact-icons">
             <!--            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-github"></i></a>-->
             <!--            <a href="https://twiter.com" target="_blank">-->
@@ -267,8 +276,8 @@
 </section>
 
 <p style="color: white">============================================================================================================================================================</p>
-<section>
-    <h3 style="color: white;text-align: center">Bed Rooms</h3>
+<section class="booking" id="booking">
+    <h3 style="color: white;text-align: center;">BED ROOMS</h3>
     <br>
     <div class="col-md-4 gallery-item1">
         <img class="image" src="/assets/image/bedroom.jpeg" alt="rows" style="width: 100px;height: 100px;">
@@ -295,29 +304,41 @@
     <div style="border: 1px solid white; display: flex; margin: 10px 10px 10px 10px ">
         <div class="col-md-4 gallery-item2" >
             <img src="/assets/image/bedroom2.jpeg" alt="Image 1">
-            <button class="add-to-cart-btn">Add to Cart</button>
+            <button type="button" class="btn btn-outline-primary">AddTOCard</button>
         </div>
     </div>
     <div style="border: 1px solid white; display: flex; margin: 10px 10px 10px 10px ">
         <div class="col-md-4 gallery-item2" >
             <img src="/assets/image/bedroom.jpeg" alt="Image 1">
-            <button class="add-to-cart-btn">Add to Cart</button>
+            <button type="button" class="btn btn-outline-primary">AddTOCard</button>
         </div>
     </div>
     <div style="border: 1px solid white; display: flex; margin: 10px 10px 10px 10px ">
         <div class="col-md-4 gallery-item2" >
-            <img src="/assets/image/bedroom.jpeg" alt="Image 1">
-            <button class="add-to-cart-btn">Add to Cart</button>
+            <img src="/assets/image/bedroom3.jpeg" alt="Image 1">
+            <button type="button" class="btn btn-outline-primary">AddTOCard</button>
         </div>
     </div>
     <div style="border: 1px solid white; display: flex; margin: 10px 10px 10px 10px ">
         <div class="col-md-4 gallery-item2" >
             <img src="/assets/image/bed%20room4.jpg" alt="Image 1">
-            <button class="add-to-cart-btn">Add to Cart</button>
+            <button type="button" class="btn btn-outline-primary">AddTOCard</button>
         </div>
     </div>
 </div>
-
+      <p style="color: white;text-align: center"> ROOMS BOOKING AVERAGE </p>
+    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-success" style="width: 25%">25%</div>
+    </div>
+    <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+    </div>
+    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+    </div>
+    <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-danger" style="width: 100%">100%</div>
+    </div>
 </section>
 
 <p style="color: white">============================================================================================================================================================</p>
@@ -368,6 +389,8 @@
 
         </div>
 </div>
+
+
 
 
 
@@ -431,7 +454,6 @@
     </div>
 </div>
 </section>
-
 <!-- Footer -->
 <footer class="footer bg-dark text-white">
     <div class="container">
@@ -456,5 +478,23 @@
 <!--    </div>-->
 <!--</footer>-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>-->
+<!--<script>-->
+<!--    function initMap() {-->
+<!--        var mapOptions = {-->
+<!--            center: { lat: 7.8731, lng: 80.7718 }, // Sri Lanka coordinates-->
+<!--            zoom: 7, // Zoom level-->
+<!--        };-->
+<!--        var map = new google.maps.Map(document.getElementById("map"), mapOptions);-->
+
+<!--        // Add a marker for the hotel location-->
+<!--        var hotelLocation = { lat: YOUR_LATITUDE, lng: YOUR_LONGITUDE }; // Replace with actual coordinates-->
+<!--        var marker = new google.maps.Marker({-->
+<!--            position: hotelLocation,-->
+<!--            map: map,-->
+<!--            title: 'DUVI' // Replace with actual hotel name-->
+<!--        });-->
+<!--    }-->
+<!--</script>-->
 </body>
 </html>
