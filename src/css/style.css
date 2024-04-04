@@ -820,16 +820,34 @@ div>h2{
     .container {
         width: 1200px;
     }
+
 }
 
 /*set room image responsive*/
+@media screen and (min-width:356px) and  (max-width:576px){
+    .re-image{
+        display: grid;
+        grid-template-columns:repeat(2 ,1fr);
+    }
+}
+@media screen and (min-width:576px) and  (max-width:768px){
+    .re-image{
+        display: grid;
+        grid-template-columns:repeat(2 ,1fr);
+    }
+}
+
 @media screen and (min-width:768px) and  (max-width:991px){
 
     /*.container{*/
     /*    display: grid;*/
     /*    grid-template-columns:repeat(3 ,1fr);*/
-
     /*}*/
+
+    .re-image{
+        display: grid;
+        grid-template-columns:repeat(3 ,1fr);
+    }
 
 
 }
@@ -839,9 +857,13 @@ div>h2{
     /*.container{*/
     /*    display: grid;*/
     /*    grid-template-columns:repeat(3 ,1fr);*/
-
     /*}*/
 
+    .re-image{
+
+        display: grid;
+        grid-template-columns:repeat(3 ,1fr);
+    }
 
 }
 
@@ -853,7 +875,11 @@ div>h2{
 
     /*}*/
 
+    .re-image{
 
+        display: grid;
+        grid-template-columns:repeat(4 ,1fr);
+    }
 }
 
 @media screen and (min-width:1400px) {
@@ -864,6 +890,11 @@ div>h2{
 
     /*}*/
 
+    .re-image{
+
+        display: grid;
+        grid-template-columns:repeat(4 ,1fr);
+    }
 
 }
 
