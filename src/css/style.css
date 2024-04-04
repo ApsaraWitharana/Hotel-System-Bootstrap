@@ -792,4 +792,80 @@ div>h2{
 
 
 }
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Media query for iPhones (portrait and landscape) */
+@media only screen and (max-width: 414px) {
+    /* CSS rules specific to iPhones */
+
+    .container {
+        width: 95%;
+    }
+}
+
+/* Media query for tablets (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* CSS rules specific to tablets */
+    .container {
+        width: 80%;
+    }
+}
+
+/* Media query for desktops and larger screens */
+@media only screen and (min-width: 1025px) {
+    /* CSS rules specific to desktops */
+    .container {
+        width: 1200px;
+    }
+}
+
+/*set room image responsive*/
+@media screen and (min-width:768px) and  (max-width:991px){
+
+    /*.container{*/
+    /*    display: grid;*/
+    /*    grid-template-columns:repeat(3 ,1fr);*/
+
+    /*}*/
+
+
+}
+
+@media screen and (min-width:992px) and  (max-width:1199px){
+
+    /*.container{*/
+    /*    display: grid;*/
+    /*    grid-template-columns:repeat(3 ,1fr);*/
+
+    /*}*/
+
+
+}
+
+@media screen and (min-width:1200px) and  (max-width:1399px){
+
+    /*.container{*/
+    /*    display: grid;*/
+    /*    grid-template-columns:repeat(4 ,1fr);*/
+
+    /*}*/
+
+
+}
+
+@media screen and (min-width:1400px) {
+
+    /*.container{*/
+    /*    display: grid;*/
+    /*    grid-template-columns:repeat(4 ,1fr);*/
+
+    /*}*/
+
+
+}
+
+
 
